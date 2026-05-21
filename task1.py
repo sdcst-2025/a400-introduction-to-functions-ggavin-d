@@ -9,7 +9,19 @@ Execute the function of the letter they use.
 """
 
 def A():
-
+    print('Hello')
 def B():
-
+    print("How are you")
 def C():
+    print("Hi")
+
+letter = input("enter letter from A to C | ")
+
+if letter == "A":
+    A()
+elif letter == "B":
+    B()
+elif letter == "C":
+    C()
+else:
+    print("N/A")
